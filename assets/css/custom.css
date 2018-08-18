@@ -1,0 +1,196 @@
+/* For 1024px Screen Size */
+@media only screen and (width: 1024px) {
+    .loginBody{
+        background: transparent;
+        background-image: url("../../assets/images/1366x768.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .loginForm{
+        padding-left: 75%;
+        margin-top: 10px;
+    }
+
+    .loginTxt{
+        color: #011F79;
+    }
+}
+
+/* For 1366px Screen Size */
+@media only screen and (width: 1366px) {
+    .loginBody{
+        background: transparent;
+        background-image: url("../../assets/images/1366x768.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .loginForm{
+        padding-left: 75%;
+        margin-top: 10px;
+    }
+
+    .loginTxt{
+        color: #011F79;
+    }
+}
+
+/* For 1280px Screen Size */
+@media only screen and (width: 1280px) {
+    .loginBody{
+        background: transparent;
+        background-image: url("../../assets/images/1366x768.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .loginForm{
+        padding-left: 75%;
+        margin-top: 10px;
+    }
+
+    .loginTxt{
+        color: #011F79;
+    }
+}
+
+/* For 1440px Screen Size */
+@media only screen and (width: 1440px) {
+    .loginBody{
+        background: transparent;
+        background-image: url("../../assets/images/1366x768.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .loginForm{
+        padding-left: 75%;
+        margin-top: 10px;
+    }
+
+    .loginTxt{
+        color: #011F79;
+    }
+}
+
+/* For Mobile to Tablet Screen Size */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .loginBody{
+        background: #a9e4f7;
+        background: -moz-linear-gradient(top, #a9e4f7 0%, #0fb4e7 100%);
+        background: -webkit-linear-gradient(top, #a9e4f7 0%,#0fb4e7 100%);
+        background: linear-gradient(to bottom, #a9e4f7 0%,#0fb4e7 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 );
+    }
+
+    .loginTxt{
+        color: #011F79;
+    }
+}
+
+/* Table Design */
+.kpTable{
+    width: 100% !important;
+}
+
+/* Custom Table Width */
+
+.tw5{
+    width: 5%;
+}
+.tw6{
+    width: 6%;
+}
+.tw10{
+    width: 10%;
+}
+.tw11{
+    width: 11%;
+}
+.tw13{
+    width: 13%;
+}
+.tw15{
+    width: 15%;
+}
+.tw16{
+    width: 16%;
+}
+.tw18{
+    width: 18%;
+}
+.tw20{
+    width: 20%;
+}
+.tw25{
+    width: 25%;
+}
+.tw30{
+    width: 30%;
+}
+
+.f20{
+    font-size: 20px;
+}
+.f18{
+    font-size: 18px;
+}
+
+.m-t-55{
+    margin-top: 55px;
+}
+
+.user-detailskp{
+    background-image: url("../../assets/images/lb1.jpg");
+    background-size: 100% 100%;
+    width: 250px;
+    height: 130px;
+}
+
+/* Remove Spinners from Number Fields */
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove Spinners from Date Fields */
+/* For Firefox */
+input[type='date'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.add, .delete, .delete1{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
+.addrow, .deleterow{
+    cursor: pointer;   
+}
+.dbicon{
+    font-size: 25px;
+}
+.dbtext{
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: top;
+}
+.dbbadge{
+    font-size: 20px;
+}
+.redtext{
+    color: #f41ed4;
+}
